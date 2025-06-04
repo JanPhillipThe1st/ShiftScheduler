@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4F3C6C"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Manager.ui.dashboard.DashboardFragment">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_marginTop="150dp"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/admin_icon" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko_semibold"
+        android:text="MANAGER\nDASHBOARD"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp" />
+
+    <GridView
+        android:id="@+id/gvMenuItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded"
+        android:backgroundTint="#BE95CF"
+        android:horizontalSpacing="10dp"
+        android:numColumns="2"
+        android:paddingHorizontal="50dp"
+        android:paddingVertical="25dp"
+        android:verticalSpacing="10dp" />
+</LinearLayout>

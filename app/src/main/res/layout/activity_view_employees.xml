@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center|center_horizontal"
+    android:orientation="vertical"
+    tools:context=".Manager.ViewEmployees">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/amiko_semibold"
+        android:text="Employee List"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp" />
+
+
+    <ListView
+        android:id="@+id/lvEmployees"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="20dp"
+        android:layout_height="500dp"
+        android:layout_marginVertical="10dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DF396D"
+        android:fontFamily="@font/amiko_semibold"
+        android:text="EXIT"
+        android:textColor="@color/white" />
+</LinearLayout>
